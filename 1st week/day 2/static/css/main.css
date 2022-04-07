@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 900px;
+    }
+}
+
+/* BEGIN UTILITY CLASSES */
+
+/* END UTILITY CLASSES */
+.btn {
+    border: 1px solid #B3DCEA;
+    border-radius: 7px;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #4D6175;
+}
+
+.btn-secondary {
+    background: #263E56;
+    color: #ffffff;
+    border-color: #263E56;
+}
+
+.btn-row {
+    margin: 40px 0;
+}
+
+/* BEGIN HEADER STYLES */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+header nav ul {
+    min-width: 500px;
+}
+
+header .header-right ul {
+    min-width: 200px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #4D6175;
+}
+
+/* END HEADER STYLES */
+
+/* BEGIN HERO STYLES */
+.hero {
+    background: linear-gradient(180deg, #D6F2FF 0%, #E3F5FE 100%);
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    padding: 60px 30px;
+    margin-top: 20px;
+    color: #263E56;
+}
+
+.hero>* {
+    width: 50%;
+}
+
+.hero-right img {
+    max-width: 100%;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-left p {
+    font-weight: 500;
+}
+
+.hero-left .btn-right {
+    color: #263E56;
+}
+
+.hero-left .btn {
+    font-weight: 600;
+}
+
+/* END HERO STYLES */
+
+/*START PARTNERS STYLES*/
+.partners{
+    padding: 80px 0;
+    text-align: center;
+}
+
+.partners2 {
+    text-align: center;
+    font-size: 32px;
+    color: #264E56
+}
+
+.partners-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+/*END PARTNERS STYLES*/
+
+/*START SERVICES STYLES*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-text{
+    max-width: 500px;
+}
+
+
+/*END SERVICES STYLES*/
